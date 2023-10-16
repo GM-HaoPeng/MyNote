@@ -82,3 +82,16 @@ sudo usermod -aG docker ${user}
 ```cmd
 sudo systemctl restart docker
 ```
+
+### <12> windows 下vmmem占用内存过高的处理方法
+
+```cmd
+# 用户目录下创建 .wslconfig 文件 并编辑加入以下内容
+#.wslconfig
+[wsl2]
+memory=3GB //分配给WSL内存3GB
+swap=4GB   //设置交换分区4GB
+localhostForwarding=true
+# 之后运行 wsl --shutdown 命令
+```
+
