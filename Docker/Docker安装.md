@@ -95,3 +95,13 @@ localhostForwarding=true
 # 之后运行 wsl --shutdown 命令
 ```
 
+### <13> 端口权限问题解决(可能由于winnat 引起)
+
+```cmd
+### 关闭winnant
+net stop winnat
+### 执行docker 命令
+### 打开winnat
+net start winnat
+```
+
