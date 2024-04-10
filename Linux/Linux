@@ -1,0 +1,15 @@
+### 查找进程，停用服务
+
+```cmd
+ps -ef |grep 服务名称
+kill -9
+```
+
+
+
+### 使用命令后台启动jar包，并指定输入的日志文件
+
+```cmd
+nohup java -Xms512m -Xmx512m -jar zrun-xxx.jar >myout.log 2>&1 &
+```
+
