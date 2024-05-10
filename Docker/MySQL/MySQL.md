@@ -9,7 +9,7 @@ docker run --name mysql -p 3306:3306 -p 33060:33060 -v /opt/mysql/conf:/etc/mysq
 ##### windows
 
 ```cmd
-docker run --name mysql -p 3306:3306 -p 33060:33060 -v E:/ProgramData/DockerData/mysql8/conf:/etc/mysql/conf.d -v E:/ProgramData/DockerData/mysql8/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=User@12345 -d --privileged  mysql:8.0.21
+docker run --name mysql -p 3306:3306 -p 33060:33060 -v E:/ProgramData/DockerData/mysql8/conf:/etc/mysql/conf.d -v E:/ProgramData/DockerData/mysql8/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=User@12345 -e lower_case_table_names=1 -d --privileged  mysql:8.0.21
 ```
 
 

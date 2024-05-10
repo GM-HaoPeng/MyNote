@@ -10,6 +10,13 @@ kill -9
 ### 使用命令后台启动jar包，并指定输入的日志文件
 
 ```cmd
-nohup java -Xms512m -Xmx512m -jar zrun-xxx.jar >myout.log 2>&1 &
+nohup java -Xms1024m -Xmx2048m -jar zrun-xxx.jar >myout.log 2>&1 &
 ```
 
+
+
+```cmd
+http://47.109.184.73:8888/410c1a955b
+```
+
+[{"uid":1714030041726,"name":"照片05.jpeg","url":"/business/file/3e0d59e97b2d48039173c9649a5e4e8a.jpeg","status":"success"}]

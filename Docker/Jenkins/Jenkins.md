@@ -1,9 +1,11 @@
 ### （1）快速启动命令
 
 ```cmd
-docker run -d -u root -p 8080:8080 -p 50000:50000 -v D:/DockerData/jenkins:/var/jenkins_home -e PLUGINS_FORCE_UPGRADE=true  -e TRY_UPGRADE_IF_NO_MARKER=true -e JAVA_OPTS=-Duser.timezone=Asia/Shanghai --name jenkins --restart=on-failure jenkins/jenkins:lts-jdk11
+docker run -d -u root -p 8080:8080 -p 50000:50000 -v E:/ProgramData/DockerData/jenkins:/var/jenkins_home -e PLUGINS_FORCE_UPGRADE=true  -e TRY_UPGRADE_IF_NO_MARKER=true -e JAVA_OPTS=-Duser.timezone=Asia/Shanghai --name jenkins --restart=on-failure jenkins/jenkins:2.440.1-lts
 
 docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -e PLUGINS_FORCE_UPGRADE=true  -e TRY_UPGRADE_IF_NO_MARKER=true -e JAVA_OPTS=-Duser.timezone=Asia/Shanghai --name jenkins --restart=on-failure jenkins/jenkins:lts-jdk11
+
+docker pull jenkins/jenkins:2.440.1-lts
 ```
 
 ### （2）注意事项
