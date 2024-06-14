@@ -1,6 +1,6 @@
 ### 查找进程，停用服务
 
-```cmd
+```shell
 ps -ef |grep 服务名称
 kill -9
 ```
@@ -9,14 +9,26 @@ kill -9
 
 ### 使用命令后台启动jar包，并指定输入的日志文件
 
-```cmd
+```shell
 nohup java -Xms1024m -Xmx2048m -jar zrun-xxx.jar >myout.log 2>&1 &
 ```
 
 
 
-```cmd
+```shell
 http://47.109.184.73:8888/410c1a955b
 ```
 
 [{"uid":1714030041726,"name":"照片05.jpeg","url":"/business/file/3e0d59e97b2d48039173c9649a5e4e8a.jpeg","status":"success"}]
+
+
+
+
+
+type growpart || sudo yum install -y cloud-utils-growpart
+sudo LC_ALL=en_US.UTF-8 growpart /dev/vdb 1
+
+```bash
+sudo LC_ALL=en_US.UTF-8 growpart /dev/vda 1
+sudo resize2fs /dev/vda1
+```

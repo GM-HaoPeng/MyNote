@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="m"
+                  name="MyNote" start-page="README.md">
+
+    <toc-element topic="账号密码.md"/>
+    <toc-element topic="README.md"/>
+    <toc-element toc-title="Docker">
+        <toc-element topic="Docker安装.md"/>
+        <toc-element toc-title="Confluence">
+            <toc-element topic="Confluence.md"/>
+        </toc-element>
+        <toc-element toc-title="Jenkins">
+            <toc-element topic="Jenkins.md"/>
+        </toc-element>
+        <toc-element toc-title="Minio">
+            <toc-element topic="Minio.md"/>
+        </toc-element>
+        <toc-element toc-title="MySQL">
+            <toc-element topic="MySQL.md"/>
+        </toc-element>
+        <toc-element toc-title="Redis">
+            <toc-element topic="Redis.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="Java">
+        <toc-element topic="环境配置.md"/>
+        <toc-element topic="JVM.md"/>
+        <toc-element topic="IO.md"/>
+    </toc-element>
+    <toc-element toc-title="Window">
+        <toc-element topic="Window.md"/>
+    </toc-element>
+</instance-profile>

@@ -4,7 +4,7 @@
 
 ### <1>环境校验
 
-```shell
+```Shell
 uname -r
 ```
 
